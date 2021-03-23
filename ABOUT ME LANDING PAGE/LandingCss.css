@@ -1,0 +1,118 @@
+body{
+	background-color:#fff559;
+	box-sizing: border-box;
+	margin: 1px;
+	padding: 1px
+	
+}
+
+.logo{
+    position: relative;
+ 
+
+}
+.logo a{
+	position: relative;
+	display: inline;
+	float: right;
+	margin: 1em;
+	padding: 14px 10px;
+    color: #FF3A3A;
+	text-decoration: none;
+	height: 10;
+	width:15%;
+	font-size: 1.3em;
+	font-family: 'Permanent Marker', cursive;
+	text-shadow:2px 2px #ffffff;
+  
+}
+.logo a:visited{
+	color:  violet;
+}
+.logo a:hover{
+	color: white;
+}
+.logo a:active{
+	color: white;
+}
+.header_area{
+  margin: 50px 0;
+  padding: 20px 20px;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color:#fff559;
+  font-size: 3.5em;
+  background-color: #73A8C2;
+  text-decoration: none;      
+}
+.centered {
+ position: absolute;
+  font-size: 5.0em;
+  font-family: 'Permanent Marker', cursive;
+  color:#fff559;
+  text-shadow:2px 2px #000000;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color:white;
+  font-size: 2.5em;
+  background-color: #73A8C2;
+  text-decoration: none;
+}
+.aboutme h1{
+	 font-size: 5.2em;
+	  font-family: 'Permanent Marker', cursive;
+	color:#FF3A3A;
+	text-align:center;
+	text-shadow:2px 2px #ffffff;
+}
+.aboutme p{
+	 float: Center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 50em;
+  font-family: 'klavikame','Nanum Barun Gothic',Arial,Dotum,AppleGothic,Helvetica,sans-serif;
+  text-align: justify;
+  font-size: 1.0em;
+  line-height:1.5
+}
+.aboutme a{
+	font-size: 1.3em;
+	color: #FF3A3A;
+	text-decoration: none;
+	text-shadow:2px 2px #ffffff;
+	font-family: 'Permanent Marker', cursive;
+}
+		.row {
+  display: flex;
+  
+}
+.column {
+  flex: 33.33%;
+
+}
+.column img{
+	
+	opacity: 0.4;
+    color: black;
+ box-shadow: 10px 10px grey;
+	width:200px;
+   height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+.column img:hover {
+  opacity: 1.0;
+}
+
+
