@@ -1,0 +1,78 @@
+ body{
+	background-color:#fff559;;
+	}
+	 .logo{
+    position: relative;
+   
+}
+.logo a{
+	position: relative;
+	display: inline;
+	float: right;
+	margin: 1em;
+	padding: 12px 10px;
+    color: #FF3A3A;
+	text-decoration: none;
+	height: 10;
+	width:10%;
+	font-size: 1.3em;
+	font-family: 'Permanent Marker', cursive;
+	 text-shadow:2px 2px #ffffff;
+  
+}
+.logo a:visited{
+	color:  violet;
+}
+.logo a:hover{
+	color: white;
+}
+.logo a:active{
+	color: white;
+}
+  
+  
+  .header_area h1{
+	float: center;
+	font-size: 3.3em;
+    line-height: .2em;
+    text-transform: uppercase;
+	text-align:Center;
+	font-family: 'Permanent Marker', cursive;
+	color:#272727;
+}
+.header_area img{
+	margin-left:auto;
+	margin-right:auto;
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: inline;   
+
+}
+
+.centered {
+  position: absolute;
+  font-size: 3.3em;
+  font-family: 'Permanent Marker', cursive;
+  color:#fff559;
+  text-shadow:2px 2px #000000;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.places img{
+	text-align:center;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+  }
+.places h5{
+	text-align:left;
+	margin-left: auto;
+     margin-right: auto;
+	width:65%;
+}
+  
