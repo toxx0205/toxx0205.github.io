@@ -16,11 +16,11 @@ body{
 	display: inline;
 	float: right;
 	margin: 1em;
-	padding: 14px 10px;
+	padding: 14px 5px;
     color: #FF3A3A;
 	text-decoration: none;
 	height: 10;
-	width:15%;
+	width:9%;
 	font-size: 1.3em;
 	font-family: 'Permanent Marker', cursive;
 	text-shadow:2px 2px #ffffff;
@@ -56,7 +56,7 @@ body{
   transform: translate(-50%, -50%);
 }
 .content-footer {
-  margin: 50px 0;
+ margin: auto;
   padding: 20px 0;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
@@ -90,6 +90,33 @@ body{
 	text-shadow:2px 2px #ffffff;
 	font-family: 'Permanent Marker', cursive;
 }
+.hire h1{
+	 font-size: 5.2em;
+	  font-family: 'Permanent Marker', cursive;
+	color:#FF3A3A;
+	text-align:center;
+	text-shadow:2px 2px #ffffff;
+}
+.hire p{
+  float: centerw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: 'klavikame','Nanum Barun Gothic',Arial,Dotum,AppleGothic,Helvetica,sans-serif;
+  text-align: justify;
+  font-size: 1.0em;
+  line-height:1.5
+}
+.hire a{
+	font-size: 1.3em;
+	color: #FF3A3A;
+	text-decoration: none;
+	text-shadow:2px 2px #ffffff;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
 		.row {
   display: flex;
   
