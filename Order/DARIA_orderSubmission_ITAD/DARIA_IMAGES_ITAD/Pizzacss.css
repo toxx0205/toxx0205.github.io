@@ -1,0 +1,101 @@
+table{
+			border: 5px groove #602f32;
+			border-collapse: collapse;
+			margin: 59px auto;
+			background-color: #ffb25e;
+		}
+		
+		td, th{
+		
+		border-collapse: collapse;
+		padding: 10px;
+		}
+		.only td, th{
+		border-bottom: 2px solid #602f32;
+		
+		}
+		body{
+			font-family: "Arial ", Gadget, sans-serif;
+			color:#ffffff;
+			font-size: 16px;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            background-image: linear-gradient(to bottom right, #fbc268, #fcd3a1);
+		}
+		
+		thead tr{
+			background-color: #ffecaf;
+		}
+		
+		input[typer=text], textarea, select{
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 2px solid #602f32;
+			border-radius: 2px;
+			box-sizing: border-box;
+			font-family: "Arial ", Gadget, sans-serif;
+			background-color: white;
+		}
+		
+		input[type=submit]{
+			width: 100%;
+			background-color: #602f32;
+			color: #ffdf58;
+			padding: 14px 20px;
+			margin:8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: 'Anton', sans-serif;
+			font-size: 1.125em;
+		}
+		input[type=submit]:hover{
+			background-color: #ffdf58;
+			color: #602f32;
+		}
+		input[type=reset]{
+			width: 100%;
+			background-color: #602f32;
+			color: #ffdf58;
+			padding: 14px 20px;
+			margin:8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: 'Anton', sans-serif;
+			font-size: 1.125em;
+		}
+		input[type=reset]:hover{
+			background-color: #ffdf58;
+			color: #602f32;
+		}
+
+		
+		textarea{
+			resize: none;
+		}
+		img.logo{
+			
+			width:150px;
+			height:150px;
+		}
+		
+		img.logo2{
+				width:150px;
+			   height:150px;
+			
+		}
+		img.logo3{
+			  width:90px;
+			  height:90px;
+             display: inline-block;
+			
+		}
+		.center{
+		text-align:center;
+		 font-family: 'Anton', sans-serif;
+			font-size: 20px;
+			border-bottom: 2px solid #602f32;
+		}
+		
